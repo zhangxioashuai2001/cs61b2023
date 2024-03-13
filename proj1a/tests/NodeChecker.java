@@ -16,7 +16,7 @@ public class NodeChecker {
      * @param clazz        the class you want to check
      * @param doublyLinked whether or not the list <em>can</em> be doubly linked
      */
-    public static boolean isNode(Class<?> clazz, boolean doublyLinked) {
+    public static boolean isNode(Class <?> clazz, boolean doublyLinked) {
         // Get fields
         SortedSet<String> fields = Stream
                 .of(clazz.getDeclaredFields())
